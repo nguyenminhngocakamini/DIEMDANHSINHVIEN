@@ -11,4 +11,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    preview: {
+        allowedHosts: ['diemdanhsinhvien-1.onrender.com'],
+    },
 });
